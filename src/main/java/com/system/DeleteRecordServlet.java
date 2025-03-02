@@ -1,4 +1,4 @@
-package com.softserve.itacademy;
+package com.system
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
