@@ -77,7 +77,7 @@ public class AddressBook implements Iterable<String> {
 
     private AddressBook(int capacity) {
         if (capacity <= 0) {
-            throw new IllegalArgumentException("Capacity should be positive");
+            throw new IllegalArgumentException("Volume should be positive");
         }
         records = new NameAddressPair[capacity];
     }
